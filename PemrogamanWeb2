@@ -1,0 +1,24 @@
+<?php
+
+$negara =[
+    "Indonesia"=>"D.K.I. Jakarta",
+    "Singapura"=>"Singapura",
+    "Malaysia"=>"Kuala Lumpur",
+    "Brunai"=>"Bandar Sri Begawan",
+    "Thailand"=>"Bangkok",
+    "Laos"=>"Vientiane",
+    "Filiphina"=>"Manila",
+    "Myanmar"=>"Naypyidaw"];
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan 4C</title>
+    </head>
+    <body>
+        <?php echo ("<b>Nama negara Asean beserta Ibu Kotanya :</b>");
+                foreach ($negara as $n => $i) :?>
+        <li><?php echo ("$n : $i"); ?></li>
+        <?php endforeach ?>
+</body>
+</html>
